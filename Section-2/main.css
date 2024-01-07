@@ -1,0 +1,24 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview{
+    background:rgb(233, 85, 85);
+}
+
+
+.plans-title{
+    color: rgb(90, 185, 90);
+
+}
+
+#product-overview h1{
+    color: white;
+    font-family:'Anton',sans-serif;  
+    /*adding combinatiors, more specific rule higher specificity*/
+}
+
+
+/* h1{
+    font-family: sans-serif;
+} */

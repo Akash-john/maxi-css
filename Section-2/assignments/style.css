@@ -1,0 +1,48 @@
+body{
+    font-family:sans-serif;
+}
+
+
+.list-2-code{
+    color:rgb(101, 194, 101)
+}
+
+#section-1-title{
+    color:rgb(241, 118, 16);
+    font-family:sans-serif;
+}
+
+
+code{
+    font-family: monospace;
+    color:red;
+}
+ 
+/*Adjacent Sibling*/
+li + li {
+    background:black ;
+    color:white;
+}
+
+
+/*General sibiling*/
+li ~ li {
+    background-color: black;
+    color:white
+}
+
+/*descendant combinators*/
+ol li {
+    background-color: black;
+    color:white
+}
+
+
+/* direct child selector*/
+ol > li {
+    background-color: black;
+    color:white
+}
+
+
+
